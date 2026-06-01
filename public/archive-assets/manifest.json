@@ -1,0 +1,146 @@
+[
+  {
+    "source": "image(3).png",
+    "clean": "/archive-assets/clean/archive-01.webp",
+    "distorted": "/archive-assets/distorted/archive-01.webp",
+    "originalWidth": 936,
+    "originalHeight": 729,
+    "width": 1200,
+    "height": 935
+  },
+  {
+    "source": "image(4).png",
+    "clean": "/archive-assets/clean/archive-02.webp",
+    "distorted": "/archive-assets/distorted/archive-02.webp",
+    "originalWidth": 246,
+    "originalHeight": 300,
+    "width": 1200,
+    "height": 1463
+  },
+  {
+    "source": "image(5).png",
+    "clean": "/archive-assets/clean/archive-03.webp",
+    "distorted": "/archive-assets/distorted/archive-03.webp",
+    "originalWidth": 297,
+    "originalHeight": 300,
+    "width": 1200,
+    "height": 1212
+  },
+  {
+    "source": "image(6).png",
+    "clean": "/archive-assets/clean/archive-04.webp",
+    "distorted": "/archive-assets/distorted/archive-04.webp",
+    "originalWidth": 240,
+    "originalHeight": 179,
+    "width": 1200,
+    "height": 895
+  },
+  {
+    "source": "image(7).png",
+    "clean": "/archive-assets/clean/archive-05.webp",
+    "distorted": "/archive-assets/distorted/archive-05.webp",
+    "originalWidth": 189,
+    "originalHeight": 266,
+    "width": 1200,
+    "height": 1689
+  },
+  {
+    "source": "image(8).png",
+    "clean": "/archive-assets/clean/archive-06.webp",
+    "distorted": "/archive-assets/distorted/archive-06.webp",
+    "originalWidth": 187,
+    "originalHeight": 269,
+    "width": 1200,
+    "height": 1726
+  },
+  {
+    "source": "image(9).png",
+    "clean": "/archive-assets/clean/archive-07.webp",
+    "distorted": "/archive-assets/distorted/archive-07.webp",
+    "originalWidth": 225,
+    "originalHeight": 224,
+    "width": 1200,
+    "height": 1195
+  },
+  {
+    "source": "image(10).png",
+    "clean": "/archive-assets/clean/archive-08.webp",
+    "distorted": "/archive-assets/distorted/archive-08.webp",
+    "originalWidth": 223,
+    "originalHeight": 226,
+    "width": 1200,
+    "height": 1216
+  },
+  {
+    "source": "image(11).png",
+    "clean": "/archive-assets/clean/archive-09.webp",
+    "distorted": "/archive-assets/distorted/archive-09.webp",
+    "originalWidth": 225,
+    "originalHeight": 225,
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "source": "image(12).png",
+    "clean": "/archive-assets/clean/archive-10.webp",
+    "distorted": "/archive-assets/distorted/archive-10.webp",
+    "originalWidth": 192,
+    "originalHeight": 192,
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "source": "image(13).png",
+    "clean": "/archive-assets/clean/archive-11.webp",
+    "distorted": "/archive-assets/distorted/archive-11.webp",
+    "originalWidth": 225,
+    "originalHeight": 224,
+    "width": 1200,
+    "height": 1195
+  },
+  {
+    "source": "image(14).png",
+    "clean": "/archive-assets/clean/archive-12.webp",
+    "distorted": "/archive-assets/distorted/archive-12.webp",
+    "originalWidth": 225,
+    "originalHeight": 225,
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "source": "image(15).png",
+    "clean": "/archive-assets/clean/archive-13.webp",
+    "distorted": "/archive-assets/distorted/archive-13.webp",
+    "originalWidth": 225,
+    "originalHeight": 225,
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "source": "image(16).png",
+    "clean": "/archive-assets/clean/archive-14.webp",
+    "distorted": "/archive-assets/distorted/archive-14.webp",
+    "originalWidth": 225,
+    "originalHeight": 225,
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "source": "image(17).png",
+    "clean": "/archive-assets/clean/archive-15.webp",
+    "distorted": "/archive-assets/distorted/archive-15.webp",
+    "originalWidth": 150,
+    "originalHeight": 148,
+    "width": 1200,
+    "height": 1184
+  },
+  {
+    "source": "image(18).png",
+    "clean": "/archive-assets/clean/archive-16.webp",
+    "distorted": "/archive-assets/distorted/archive-16.webp",
+    "originalWidth": 364,
+    "originalHeight": 138,
+    "width": 1200,
+    "height": 455
+  }
+]
