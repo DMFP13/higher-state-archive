@@ -1,5 +1,7 @@
 import * as THREE from 'three';
 
+const assetUrl = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`;
+
 const projectTargets = {
   '01': { hue: 0.52, z: 0 },
   '02': { hue: 0.03, z: 1.2 },
@@ -171,7 +173,7 @@ function makeOrbitSystem() {
 
   const loader = new THREE.TextureLoader();
   const glowTexture = makeGlowTexture();
-  const discTexture = loader.load('/orbit-disc-node.png');
+  const discTexture = loader.load(assetUrl('/orbit-disc-node.png'));
   discTexture.colorSpace = THREE.SRGBColorSpace;
   discTexture.anisotropy = 8;
 
@@ -453,9 +455,9 @@ function makeGlowTexture() {
 
 function makeLogoCore() {
   const loader = new THREE.TextureLoader();
-  const higherStateTexture = loadLogoTexture(loader, '/higher-state-records.png');
-  const northTexture = loadLogoTexture(loader, '/99-north.png');
-  const degreesTexture = loadLogoTexture(loader, '/99-degrees.png');
+  const higherStateTexture = loadLogoTexture(loader, assetUrl('/higher-state-records.png'));
+  const northTexture = loadLogoTexture(loader, assetUrl('/99-north.png'));
+  const degreesTexture = loadLogoTexture(loader, assetUrl('/99-degrees.png'));
 
   const core = new THREE.Group();
   core.position.set(1.48, 0, 0);

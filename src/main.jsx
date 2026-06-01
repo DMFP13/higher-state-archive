@@ -5,6 +5,8 @@ import gsap from 'gsap';
 import { createScene } from './scene.js';
 import './styles.css';
 
+const assetUrl = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`;
+
 const labelStory = [
   'Higher State was never just a record label. It was part of a moment.',
   'Founded in London in 1992 by Marc Dillon and Patrick Dickins, Higher State emerged from a city that was changing fast. The post-punk and New Romantic years had given way to acid house, pirate radio, warehouse parties and an entirely new nightlife culture. London had become one of the most exciting club cities in the world. Records moved through scenes before they moved through charts. DJs, promoters, record shops and dancefloors shaped reputations long before social media or streaming existed.',
@@ -48,22 +50,22 @@ const legacySignals = [
 ];
 
 const archiveWallAssets = [
-  { src: '/archive-assets/distorted/archive-01.webp', fit: 'cover', depth: 'mid', x: 66, y: 12, w: 28, r: -7, s: 1.05, duration: 28, delay: -4 },
-  { src: '/archive-assets/distorted/archive-02.webp', fit: 'cover', depth: 'back', x: 8, y: 18, w: 18, r: 8, s: 0.92, duration: 34, delay: -17 },
-  { src: '/archive-assets/distorted/archive-03.webp', fit: 'cover', depth: 'front', x: 74, y: 64, w: 19, r: 5, s: 1.05, duration: 23, delay: -9 },
-  { src: '/archive-assets/distorted/archive-04.webp', fit: 'cover', depth: 'mid', x: 36, y: 8, w: 24, r: -11, s: 0.96, duration: 31, delay: -13 },
-  { src: '/archive-assets/distorted/archive-05.webp', fit: 'cover', depth: 'back', x: 82, y: 26, w: 15, r: -4, s: 0.9, duration: 37, delay: -20 },
-  { src: '/archive-assets/distorted/archive-06.webp', fit: 'cover', depth: 'mid', x: 3, y: 58, w: 19, r: -9, s: 1.02, duration: 27, delay: -7 },
-  { src: '/archive-assets/distorted/archive-07.webp', fit: 'contain', depth: 'front', x: 52, y: 44, w: 16, r: 12, s: 0.98, duration: 24, delay: -15 },
-  { src: '/archive-assets/distorted/archive-08.webp', fit: 'cover', depth: 'back', x: 23, y: 70, w: 17, r: 6, s: 0.9, duration: 39, delay: -2 },
-  { src: '/archive-assets/distorted/archive-09.webp', fit: 'contain', depth: 'front', x: 14, y: 38, w: 18, r: 4, s: 1.04, duration: 26, delay: -18 },
-  { src: '/archive-assets/distorted/archive-10.webp', fit: 'contain', depth: 'mid', x: 58, y: 78, w: 16, r: -6, s: 0.95, duration: 33, delay: -11 },
-  { src: '/archive-assets/distorted/archive-11.webp', fit: 'contain', depth: 'back', x: 42, y: 30, w: 15, r: 9, s: 0.88, duration: 36, delay: -23 },
-  { src: '/archive-assets/distorted/archive-12.webp', fit: 'contain', depth: 'front', x: 87, y: 48, w: 17, r: -13, s: 1.03, duration: 25, delay: -5 },
-  { src: '/archive-assets/distorted/archive-13.webp', fit: 'contain', depth: 'back', x: 31, y: 52, w: 13, r: -3, s: 0.86, duration: 41, delay: -29 },
-  { src: '/archive-assets/distorted/archive-14.webp', fit: 'contain', depth: 'mid', x: 6, y: 82, w: 17, r: 10, s: 0.95, duration: 29, delay: -19 },
-  { src: '/archive-assets/distorted/archive-15.webp', fit: 'cover', depth: 'back', x: 70, y: 88, w: 13, r: -8, s: 0.82, duration: 42, delay: -8 },
-  { src: '/archive-assets/distorted/archive-16.webp', fit: 'contain', depth: 'front', x: 23, y: 7, w: 24, r: 3, s: 1.06, duration: 22, delay: -12 },
+  { src: assetUrl('/archive-assets/distorted/archive-01.webp'), fit: 'cover', depth: 'mid', x: 66, y: 12, w: 28, r: -7, s: 1.05, duration: 28, delay: -4 },
+  { src: assetUrl('/archive-assets/distorted/archive-02.webp'), fit: 'cover', depth: 'back', x: 8, y: 18, w: 18, r: 8, s: 0.92, duration: 34, delay: -17 },
+  { src: assetUrl('/archive-assets/distorted/archive-03.webp'), fit: 'cover', depth: 'front', x: 74, y: 64, w: 19, r: 5, s: 1.05, duration: 23, delay: -9 },
+  { src: assetUrl('/archive-assets/distorted/archive-04.webp'), fit: 'cover', depth: 'mid', x: 36, y: 8, w: 24, r: -11, s: 0.96, duration: 31, delay: -13 },
+  { src: assetUrl('/archive-assets/distorted/archive-05.webp'), fit: 'cover', depth: 'back', x: 82, y: 26, w: 15, r: -4, s: 0.9, duration: 37, delay: -20 },
+  { src: assetUrl('/archive-assets/distorted/archive-06.webp'), fit: 'cover', depth: 'mid', x: 3, y: 58, w: 19, r: -9, s: 1.02, duration: 27, delay: -7 },
+  { src: assetUrl('/archive-assets/distorted/archive-07.webp'), fit: 'contain', depth: 'front', x: 52, y: 44, w: 16, r: 12, s: 0.98, duration: 24, delay: -15 },
+  { src: assetUrl('/archive-assets/distorted/archive-08.webp'), fit: 'cover', depth: 'back', x: 23, y: 70, w: 17, r: 6, s: 0.9, duration: 39, delay: -2 },
+  { src: assetUrl('/archive-assets/distorted/archive-09.webp'), fit: 'contain', depth: 'front', x: 14, y: 38, w: 18, r: 4, s: 1.04, duration: 26, delay: -18 },
+  { src: assetUrl('/archive-assets/distorted/archive-10.webp'), fit: 'contain', depth: 'mid', x: 58, y: 78, w: 16, r: -6, s: 0.95, duration: 33, delay: -11 },
+  { src: assetUrl('/archive-assets/distorted/archive-11.webp'), fit: 'contain', depth: 'back', x: 42, y: 30, w: 15, r: 9, s: 0.88, duration: 36, delay: -23 },
+  { src: assetUrl('/archive-assets/distorted/archive-12.webp'), fit: 'contain', depth: 'front', x: 87, y: 48, w: 17, r: -13, s: 1.03, duration: 25, delay: -5 },
+  { src: assetUrl('/archive-assets/distorted/archive-13.webp'), fit: 'contain', depth: 'back', x: 31, y: 52, w: 13, r: -3, s: 0.86, duration: 41, delay: -29 },
+  { src: assetUrl('/archive-assets/distorted/archive-14.webp'), fit: 'contain', depth: 'mid', x: 6, y: 82, w: 17, r: 10, s: 0.95, duration: 29, delay: -19 },
+  { src: assetUrl('/archive-assets/distorted/archive-15.webp'), fit: 'cover', depth: 'back', x: 70, y: 88, w: 13, r: -8, s: 0.82, duration: 42, delay: -8 },
+  { src: assetUrl('/archive-assets/distorted/archive-16.webp'), fit: 'contain', depth: 'front', x: 23, y: 7, w: 24, r: 3, s: 1.06, duration: 22, delay: -12 },
 ];
 
 const discography = [
